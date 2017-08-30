@@ -9,7 +9,6 @@
 
 # Precompiled Headers
 *.gch
-*.pch
 
 # Compiled Dynamic libraries
 *.so
@@ -30,3 +29,5 @@
 *.exe
 *.out
 *.app
+
+*.ds_store

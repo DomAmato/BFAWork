@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA8A909516DD801D0089F84D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8A909416DD801D0089F84D /* UIKit.framework */; };
+		FA8A909716DD801D0089F84D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8A909616DD801D0089F84D /* Foundation.framework */; };
+		FA8A909916DD801D0089F84D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA8A909816DD801D0089F84D /* CoreGraphics.framework */; };
+		FA8A909F16DD801D0089F84D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA8A909D16DD801D0089F84D /* InfoPlist.strings */; };
+		FA8A90A116DD801D0089F84D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A90A016DD801D0089F84D /* main.m */; };
+		FA8A90A516DD801D0089F84D /* DanceFloorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A90A416DD801D0089F84D /* DanceFloorAppDelegate.m */; };
+		FA8A90A816DD801D0089F84D /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8A90A616DD801D0089F84D /* MainStoryboard_iPhone.storyboard */; };
+		FA8A90AB16DD801D0089F84D /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA8A90A916DD801D0089F84D /* MainStoryboard_iPad.storyboard */; };
+		FA8A90AE16DD801D0089F84D /* DanceFloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA8A90AD16DD801D0089F84D /* DanceFloorViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA8A909016DD801D0089F84D /* DanceFloor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DanceFloor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA8A909416DD801D0089F84D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA8A909616DD801D0089F84D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA8A909816DD801D0089F84D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA8A909C16DD801D0089F84D /* DanceFloor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DanceFloor-Info.plist"; sourceTree = "<group>"; };
+		FA8A909E16DD801D0089F84D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA8A90A016DD801D0089F84D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA8A90A216DD801D0089F84D /* DanceFloor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DanceFloor-Prefix.pch"; sourceTree = "<group>"; };
+		FA8A90A316DD801D0089F84D /* DanceFloorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceFloorAppDelegate.h; sourceTree = "<group>"; };
+		FA8A90A416DD801D0089F84D /* DanceFloorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceFloorAppDelegate.m; sourceTree = "<group>"; };
+		FA8A90A716DD801D0089F84D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FA8A90AA16DD801D0089F84D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FA8A90AC16DD801D0089F84D /* DanceFloorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DanceFloorViewController.h; sourceTree = "<group>"; };
+		FA8A90AD16DD801D0089F84D /* DanceFloorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DanceFloorViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA8A908D16DD801D0089F84D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8A909516DD801D0089F84D /* UIKit.framework in Frameworks */,
+				FA8A909716DD801D0089F84D /* Foundation.framework in Frameworks */,
+				FA8A909916DD801D0089F84D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA8A908516DD801C0089F84D = {
+			isa = PBXGroup;
+			children = (
+				FA8A909A16DD801D0089F84D /* DanceFloor */,
+				FA8A909316DD801D0089F84D /* Frameworks */,
+				FA8A909116DD801D0089F84D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA8A909116DD801D0089F84D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A909016DD801D0089F84D /* DanceFloor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA8A909316DD801D0089F84D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A909416DD801D0089F84D /* UIKit.framework */,
+				FA8A909616DD801D0089F84D /* Foundation.framework */,
+				FA8A909816DD801D0089F84D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA8A909A16DD801D0089F84D /* DanceFloor */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A90A316DD801D0089F84D /* DanceFloorAppDelegate.h */,
+				FA8A90A416DD801D0089F84D /* DanceFloorAppDelegate.m */,
+				FA8A90A616DD801D0089F84D /* MainStoryboard_iPhone.storyboard */,
+				FA8A90A916DD801D0089F84D /* MainStoryboard_iPad.storyboard */,
+				FA8A90AC16DD801D0089F84D /* DanceFloorViewController.h */,
+				FA8A90AD16DD801D0089F84D /* DanceFloorViewController.m */,
+				FA8A909B16DD801D0089F84D /* Supporting Files */,
+			);
+			path = DanceFloor;
+			sourceTree = "<group>";
+		};
+		FA8A909B16DD801D0089F84D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA8A909C16DD801D0089F84D /* DanceFloor-Info.plist */,
+				FA8A909D16DD801D0089F84D /* InfoPlist.strings */,
+				FA8A90A016DD801D0089F84D /* main.m */,
+				FA8A90A216DD801D0089F84D /* DanceFloor-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA8A908F16DD801D0089F84D /* DanceFloor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA8A90B116DD801D0089F84D /* Build configuration list for PBXNativeTarget "DanceFloor" */;
+			buildPhases = (
+				FA8A908C16DD801D0089F84D /* Sources */,
+				FA8A908D16DD801D0089F84D /* Frameworks */,
+				FA8A908E16DD801D0089F84D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DanceFloor;
+			productName = DanceFloor;
+			productReference = FA8A909016DD801D0089F84D /* DanceFloor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA8A908716DD801C0089F84D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Wisconsin Milwaukee";
+			};
+			buildConfigurationList = FA8A908A16DD801C0089F84D /* Build configuration list for PBXProject "DanceFloor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FA8A908516DD801C0089F84D;
+			productRefGroup = FA8A909116DD801D0089F84D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA8A908F16DD801D0089F84D /* DanceFloor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA8A908E16DD801D0089F84D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8A909F16DD801D0089F84D /* InfoPlist.strings in Resources */,
+				FA8A90A816DD801D0089F84D /* MainStoryboard_iPhone.storyboard in Resources */,
+				FA8A90AB16DD801D0089F84D /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA8A908C16DD801D0089F84D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA8A90A116DD801D0089F84D /* main.m in Sources */,
+				FA8A90A516DD801D0089F84D /* DanceFloorAppDelegate.m in Sources */,
+				FA8A90AE16DD801D0089F84D /* DanceFloorViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FA8A909D16DD801D0089F84D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8A909E16DD801D0089F84D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA8A90A616DD801D0089F84D /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8A90A716DD801D0089F84D /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA8A90A916DD801D0089F84D /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA8A90AA16DD801D0089F84D /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA8A90AF16DD801D0089F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA8A90B016DD801D0089F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA8A90B216DD801D0089F84D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceFloor/DanceFloor-Prefix.pch";
+				INFOPLIST_FILE = "DanceFloor/DanceFloor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA8A90B316DD801D0089F84D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DanceFloor/DanceFloor-Prefix.pch";
+				INFOPLIST_FILE = "DanceFloor/DanceFloor-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA8A908A16DD801C0089F84D /* Build configuration list for PBXProject "DanceFloor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8A90AF16DD801D0089F84D /* Debug */,
+				FA8A90B016DD801D0089F84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA8A90B116DD801D0089F84D /* Build configuration list for PBXNativeTarget "DanceFloor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA8A90B216DD801D0089F84D /* Debug */,
+				FA8A90B316DD801D0089F84D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA8A908716DD801C0089F84D /* Project object */;
+}

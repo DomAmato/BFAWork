@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA9597616D2BDC700B200E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9597516D2BDC700B200E4 /* UIKit.framework */; };
+		FAA9597816D2BDC700B200E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9597716D2BDC700B200E4 /* Foundation.framework */; };
+		FAA9597A16D2BDC700B200E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9597916D2BDC700B200E4 /* CoreGraphics.framework */; };
+		FAA9598016D2BDC700B200E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAA9597E16D2BDC700B200E4 /* InfoPlist.strings */; };
+		FAA9598216D2BDC700B200E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9598116D2BDC700B200E4 /* main.m */; };
+		FAA9598616D2BDC700B200E4 /* PoemAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9598516D2BDC700B200E4 /* PoemAppDelegate.m */; };
+		FAA9598916D2BDC700B200E4 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA9598716D2BDC700B200E4 /* MainStoryboard_iPhone.storyboard */; };
+		FAA9598C16D2BDC700B200E4 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA9598A16D2BDC700B200E4 /* MainStoryboard_iPad.storyboard */; };
+		FAA9598F16D2BDC700B200E4 /* PoemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA9598E16D2BDC700B200E4 /* PoemViewController.m */; };
+		FAA9599616D2BF6100B200E4 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAA9599516D2BF6100B200E4 /* CoreText.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAA9597116D2BDC700B200E4 /* Week4Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Week4Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA9597516D2BDC700B200E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAA9597716D2BDC700B200E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAA9597916D2BDC700B200E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAA9597D16D2BDC700B200E4 /* Week4Assignment-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Week4Assignment-Info.plist"; sourceTree = "<group>"; };
+		FAA9597F16D2BDC700B200E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAA9598116D2BDC700B200E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA9598316D2BDC700B200E4 /* Week4Assignment-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Week4Assignment-Prefix.pch"; sourceTree = "<group>"; };
+		FAA9598416D2BDC700B200E4 /* PoemAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoemAppDelegate.h; sourceTree = "<group>"; };
+		FAA9598516D2BDC700B200E4 /* PoemAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoemAppDelegate.m; sourceTree = "<group>"; };
+		FAA9598816D2BDC700B200E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		FAA9598B16D2BDC700B200E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		FAA9598D16D2BDC700B200E4 /* PoemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PoemViewController.h; sourceTree = "<group>"; };
+		FAA9598E16D2BDC700B200E4 /* PoemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PoemViewController.m; sourceTree = "<group>"; };
+		FAA9599516D2BF6100B200E4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA9596E16D2BDC700B200E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA9599616D2BF6100B200E4 /* CoreText.framework in Frameworks */,
+				FAA9597616D2BDC700B200E4 /* UIKit.framework in Frameworks */,
+				FAA9597816D2BDC700B200E4 /* Foundation.framework in Frameworks */,
+				FAA9597A16D2BDC700B200E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA9596616D2BDC600B200E4 = {
+			isa = PBXGroup;
+			children = (
+				FAA9597B16D2BDC700B200E4 /* Week4Assignment */,
+				FAA9597416D2BDC700B200E4 /* Frameworks */,
+				FAA9597216D2BDC700B200E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA9597216D2BDC700B200E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9597116D2BDC700B200E4 /* Week4Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA9597416D2BDC700B200E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9599516D2BF6100B200E4 /* CoreText.framework */,
+				FAA9597516D2BDC700B200E4 /* UIKit.framework */,
+				FAA9597716D2BDC700B200E4 /* Foundation.framework */,
+				FAA9597916D2BDC700B200E4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAA9597B16D2BDC700B200E4 /* Week4Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9598416D2BDC700B200E4 /* PoemAppDelegate.h */,
+				FAA9598516D2BDC700B200E4 /* PoemAppDelegate.m */,
+				FAA9598716D2BDC700B200E4 /* MainStoryboard_iPhone.storyboard */,
+				FAA9598A16D2BDC700B200E4 /* MainStoryboard_iPad.storyboard */,
+				FAA9598D16D2BDC700B200E4 /* PoemViewController.h */,
+				FAA9598E16D2BDC700B200E4 /* PoemViewController.m */,
+				FAA9597C16D2BDC700B200E4 /* Supporting Files */,
+			);
+			path = Week4Assignment;
+			sourceTree = "<group>";
+		};
+		FAA9597C16D2BDC700B200E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA9597D16D2BDC700B200E4 /* Week4Assignment-Info.plist */,
+				FAA9597E16D2BDC700B200E4 /* InfoPlist.strings */,
+				FAA9598116D2BDC700B200E4 /* main.m */,
+				FAA9598316D2BDC700B200E4 /* Week4Assignment-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA9597016D2BDC700B200E4 /* Week4Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA9599216D2BDC700B200E4 /* Build configuration list for PBXNativeTarget "Week4Assignment" */;
+			buildPhases = (
+				FAA9596D16D2BDC700B200E4 /* Sources */,
+				FAA9596E16D2BDC700B200E4 /* Frameworks */,
+				FAA9596F16D2BDC700B200E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Week4Assignment;
+			productName = Week4Assignment;
+			productReference = FAA9597116D2BDC700B200E4 /* Week4Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA9596816D2BDC600B200E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Wisconsin Milwaukee";
+			};
+			buildConfigurationList = FAA9596B16D2BDC600B200E4 /* Build configuration list for PBXProject "Week4Assignment" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAA9596616D2BDC600B200E4;
+			productRefGroup = FAA9597216D2BDC700B200E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA9597016D2BDC700B200E4 /* Week4Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA9596F16D2BDC700B200E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA9598016D2BDC700B200E4 /* InfoPlist.strings in Resources */,
+				FAA9598916D2BDC700B200E4 /* MainStoryboard_iPhone.storyboard in Resources */,
+				FAA9598C16D2BDC700B200E4 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA9596D16D2BDC700B200E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA9598216D2BDC700B200E4 /* main.m in Sources */,
+				FAA9598616D2BDC700B200E4 /* PoemAppDelegate.m in Sources */,
+				FAA9598F16D2BDC700B200E4 /* PoemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAA9597E16D2BDC700B200E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA9597F16D2BDC700B200E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAA9598716D2BDC700B200E4 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA9598816D2BDC700B200E4 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA9598A16D2BDC700B200E4 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA9598B16D2BDC700B200E4 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA9599016D2BDC700B200E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAA9599116D2BDC700B200E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA9599316D2BDC700B200E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week4Assignment/Week4Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Week4Assignment/Week4Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAA9599416D2BDC700B200E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Week4Assignment/Week4Assignment-Prefix.pch";
+				INFOPLIST_FILE = "Week4Assignment/Week4Assignment-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA9596B16D2BDC600B200E4 /* Build configuration list for PBXProject "Week4Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA9599016D2BDC700B200E4 /* Debug */,
+				FAA9599116D2BDC700B200E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA9599216D2BDC700B200E4 /* Build configuration list for PBXNativeTarget "Week4Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA9599316D2BDC700B200E4 /* Debug */,
+				FAA9599416D2BDC700B200E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA9596816D2BDC600B200E4 /* Project object */;
+}

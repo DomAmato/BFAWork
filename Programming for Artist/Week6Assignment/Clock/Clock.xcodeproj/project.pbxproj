@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC81C8616E2B2A0006E8542 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC81C8516E2B2A0006E8542 /* UIKit.framework */; };
+		FAC81C8816E2B2A0006E8542 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC81C8716E2B2A0006E8542 /* Foundation.framework */; };
+		FAC81C8A16E2B2A0006E8542 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC81C8916E2B2A0006E8542 /* CoreGraphics.framework */; };
+		FAC81C9016E2B2A0006E8542 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FAC81C8E16E2B2A0006E8542 /* InfoPlist.strings */; };
+		FAC81C9216E2B2A0006E8542 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC81C9116E2B2A0006E8542 /* main.m */; };
+		FAC81C9616E2B2A1006E8542 /* ClockAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC81C9516E2B2A1006E8542 /* ClockAppDelegate.m */; };
+		FAC81C9916E2B2A1006E8542 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC81C9716E2B2A1006E8542 /* MainStoryboard.storyboard */; };
+		FAC81C9C16E2B2A1006E8542 /* ClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC81C9B16E2B2A1006E8542 /* ClockViewController.m */; };
+		FAC81CA316E2D5E9006E8542 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC81CA216E2D5E9006E8542 /* QuartzCore.framework */; };
+		FAC81CB816E2DD63006E8542 /* BlueLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CA516E2DD63006E8542 /* BlueLEDOff.png */; };
+		FAC81CB916E2DD63006E8542 /* BlueLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CA616E2DD63006E8542 /* BlueLEDOn.png */; };
+		FAC81CBC16E2DD63006E8542 /* GreenLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CAC16E2DD63006E8542 /* GreenLEDOff.png */; };
+		FAC81CBD16E2DD63006E8542 /* GreenLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CAD16E2DD63006E8542 /* GreenLEDOn.png */; };
+		FAC81CBE16E2DD63006E8542 /* OrangeLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CAE16E2DD63006E8542 /* OrangeLEDOff.png */; };
+		FAC81CBF16E2DD63006E8542 /* OrangeLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CAF16E2DD63006E8542 /* OrangeLEDOn.png */; };
+		FAC81CC016E2DD63006E8542 /* PurpleLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB016E2DD63006E8542 /* PurpleLEDOff.png */; };
+		FAC81CC116E2DD63006E8542 /* PurpleLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB116E2DD63006E8542 /* PurpleLEDOn.png */; };
+		FAC81CC216E2DD63006E8542 /* RedLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB216E2DD63006E8542 /* RedLEDOff.png */; };
+		FAC81CC316E2DD63006E8542 /* RedLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB316E2DD63006E8542 /* RedLEDOn.png */; };
+		FAC81CC416E2DD63006E8542 /* WhiteLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB416E2DD63006E8542 /* WhiteLEDOff.png */; };
+		FAC81CC516E2DD63006E8542 /* WhiteLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB516E2DD63006E8542 /* WhiteLEDOn.png */; };
+		FAC81CC616E2DD63006E8542 /* YellowLEDOff.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB616E2DD63006E8542 /* YellowLEDOff.png */; };
+		FAC81CC716E2DD63006E8542 /* YellowLEDOn.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81CB716E2DD63006E8542 /* YellowLEDOn.png */; };
+		FAC81D3816E33CCB006E8542 /* ClockFace.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81D3516E33CCB006E8542 /* ClockFace.png */; };
+		FAC81D3916E33CCB006E8542 /* HourHand.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81D3616E33CCB006E8542 /* HourHand.png */; };
+		FAC81D3A16E33CCB006E8542 /* MinuteHand.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81D3716E33CCB006E8542 /* MinuteHand.png */; };
+		FAC81D3D16E35138006E8542 /* SecondHand.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC81D3C16E35138006E8542 /* SecondHand.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAC81C8116E2B2A0006E8542 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC81C8516E2B2A0006E8542 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FAC81C8716E2B2A0006E8542 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FAC81C8916E2B2A0006E8542 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAC81C8D16E2B2A0006E8542 /* Clock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Clock-Info.plist"; sourceTree = "<group>"; };
+		FAC81C8F16E2B2A0006E8542 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FAC81C9116E2B2A0006E8542 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAC81C9316E2B2A1006E8542 /* Clock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Clock-Prefix.pch"; sourceTree = "<group>"; };
+		FAC81C9416E2B2A1006E8542 /* ClockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockAppDelegate.h; sourceTree = "<group>"; };
+		FAC81C9516E2B2A1006E8542 /* ClockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockAppDelegate.m; sourceTree = "<group>"; };
+		FAC81C9816E2B2A1006E8542 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		FAC81C9A16E2B2A1006E8542 /* ClockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClockViewController.h; sourceTree = "<group>"; };
+		FAC81C9B16E2B2A1006E8542 /* ClockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClockViewController.m; sourceTree = "<group>"; };
+		FAC81CA216E2D5E9006E8542 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAC81CA516E2DD63006E8542 /* BlueLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueLEDOff.png; sourceTree = "<group>"; };
+		FAC81CA616E2DD63006E8542 /* BlueLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BlueLEDOn.png; sourceTree = "<group>"; };
+		FAC81CAC16E2DD63006E8542 /* GreenLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenLEDOff.png; sourceTree = "<group>"; };
+		FAC81CAD16E2DD63006E8542 /* GreenLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenLEDOn.png; sourceTree = "<group>"; };
+		FAC81CAE16E2DD63006E8542 /* OrangeLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeLEDOff.png; sourceTree = "<group>"; };
+		FAC81CAF16E2DD63006E8542 /* OrangeLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OrangeLEDOn.png; sourceTree = "<group>"; };
+		FAC81CB016E2DD63006E8542 /* PurpleLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleLEDOff.png; sourceTree = "<group>"; };
+		FAC81CB116E2DD63006E8542 /* PurpleLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PurpleLEDOn.png; sourceTree = "<group>"; };
+		FAC81CB216E2DD63006E8542 /* RedLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLEDOff.png; sourceTree = "<group>"; };
+		FAC81CB316E2DD63006E8542 /* RedLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedLEDOn.png; sourceTree = "<group>"; };
+		FAC81CB416E2DD63006E8542 /* WhiteLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLEDOff.png; sourceTree = "<group>"; };
+		FAC81CB516E2DD63006E8542 /* WhiteLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WhiteLEDOn.png; sourceTree = "<group>"; };
+		FAC81CB616E2DD63006E8542 /* YellowLEDOff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowLEDOff.png; sourceTree = "<group>"; };
+		FAC81CB716E2DD63006E8542 /* YellowLEDOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = YellowLEDOn.png; sourceTree = "<group>"; };
+		FAC81D3516E33CCB006E8542 /* ClockFace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ClockFace.png; sourceTree = "<group>"; };
+		FAC81D3616E33CCB006E8542 /* HourHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HourHand.png; sourceTree = "<group>"; };
+		FAC81D3716E33CCB006E8542 /* MinuteHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MinuteHand.png; sourceTree = "<group>"; };
+		FAC81D3C16E35138006E8542 /* SecondHand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SecondHand.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC81C7E16E2B2A0006E8542 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC81CA316E2D5E9006E8542 /* QuartzCore.framework in Frameworks */,
+				FAC81C8616E2B2A0006E8542 /* UIKit.framework in Frameworks */,
+				FAC81C8816E2B2A0006E8542 /* Foundation.framework in Frameworks */,
+				FAC81C8A16E2B2A0006E8542 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC81C7616E2B2A0006E8542 = {
+			isa = PBXGroup;
+			children = (
+				FAC81C8B16E2B2A0006E8542 /* Clock */,
+				FAC81C8416E2B2A0006E8542 /* Frameworks */,
+				FAC81C8216E2B2A0006E8542 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC81C8216E2B2A0006E8542 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81C8116E2B2A0006E8542 /* Clock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC81C8416E2B2A0006E8542 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81CA216E2D5E9006E8542 /* QuartzCore.framework */,
+				FAC81C8516E2B2A0006E8542 /* UIKit.framework */,
+				FAC81C8716E2B2A0006E8542 /* Foundation.framework */,
+				FAC81C8916E2B2A0006E8542 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAC81C8B16E2B2A0006E8542 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81CA416E2DD35006E8542 /* Images */,
+				FAC81C9416E2B2A1006E8542 /* ClockAppDelegate.h */,
+				FAC81C9516E2B2A1006E8542 /* ClockAppDelegate.m */,
+				FAC81C9716E2B2A1006E8542 /* MainStoryboard.storyboard */,
+				FAC81C9A16E2B2A1006E8542 /* ClockViewController.h */,
+				FAC81C9B16E2B2A1006E8542 /* ClockViewController.m */,
+				FAC81C8C16E2B2A0006E8542 /* Supporting Files */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		FAC81C8C16E2B2A0006E8542 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81C8D16E2B2A0006E8542 /* Clock-Info.plist */,
+				FAC81C8E16E2B2A0006E8542 /* InfoPlist.strings */,
+				FAC81C9116E2B2A0006E8542 /* main.m */,
+				FAC81C9316E2B2A1006E8542 /* Clock-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAC81CA416E2DD35006E8542 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				FAC81D3C16E35138006E8542 /* SecondHand.png */,
+				FAC81D3516E33CCB006E8542 /* ClockFace.png */,
+				FAC81D3616E33CCB006E8542 /* HourHand.png */,
+				FAC81D3716E33CCB006E8542 /* MinuteHand.png */,
+				FAC81CA516E2DD63006E8542 /* BlueLEDOff.png */,
+				FAC81CA616E2DD63006E8542 /* BlueLEDOn.png */,
+				FAC81CAC16E2DD63006E8542 /* GreenLEDOff.png */,
+				FAC81CAD16E2DD63006E8542 /* GreenLEDOn.png */,
+				FAC81CAE16E2DD63006E8542 /* OrangeLEDOff.png */,
+				FAC81CAF16E2DD63006E8542 /* OrangeLEDOn.png */,
+				FAC81CB016E2DD63006E8542 /* PurpleLEDOff.png */,
+				FAC81CB116E2DD63006E8542 /* PurpleLEDOn.png */,
+				FAC81CB216E2DD63006E8542 /* RedLEDOff.png */,
+				FAC81CB316E2DD63006E8542 /* RedLEDOn.png */,
+				FAC81CB416E2DD63006E8542 /* WhiteLEDOff.png */,
+				FAC81CB516E2DD63006E8542 /* WhiteLEDOn.png */,
+				FAC81CB616E2DD63006E8542 /* YellowLEDOff.png */,
+				FAC81CB716E2DD63006E8542 /* YellowLEDOn.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC81C8016E2B2A0006E8542 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC81C9F16E2B2A1006E8542 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				FAC81C7D16E2B2A0006E8542 /* Sources */,
+				FAC81C7E16E2B2A0006E8542 /* Frameworks */,
+				FAC81C7F16E2B2A0006E8542 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = FAC81C8116E2B2A0006E8542 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC81C7816E2B2A0006E8542 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "University of Wisconsin Milwaukee";
+			};
+			buildConfigurationList = FAC81C7B16E2B2A0006E8542 /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FAC81C7616E2B2A0006E8542;
+			productRefGroup = FAC81C8216E2B2A0006E8542 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC81C8016E2B2A0006E8542 /* Clock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC81C7F16E2B2A0006E8542 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC81C9016E2B2A0006E8542 /* InfoPlist.strings in Resources */,
+				FAC81C9916E2B2A1006E8542 /* MainStoryboard.storyboard in Resources */,
+				FAC81CB816E2DD63006E8542 /* BlueLEDOff.png in Resources */,
+				FAC81CB916E2DD63006E8542 /* BlueLEDOn.png in Resources */,
+				FAC81CBC16E2DD63006E8542 /* GreenLEDOff.png in Resources */,
+				FAC81CBD16E2DD63006E8542 /* GreenLEDOn.png in Resources */,
+				FAC81CBE16E2DD63006E8542 /* OrangeLEDOff.png in Resources */,
+				FAC81CBF16E2DD63006E8542 /* OrangeLEDOn.png in Resources */,
+				FAC81CC016E2DD63006E8542 /* PurpleLEDOff.png in Resources */,
+				FAC81CC116E2DD63006E8542 /* PurpleLEDOn.png in Resources */,
+				FAC81CC216E2DD63006E8542 /* RedLEDOff.png in Resources */,
+				FAC81CC316E2DD63006E8542 /* RedLEDOn.png in Resources */,
+				FAC81CC416E2DD63006E8542 /* WhiteLEDOff.png in Resources */,
+				FAC81CC516E2DD63006E8542 /* WhiteLEDOn.png in Resources */,
+				FAC81CC616E2DD63006E8542 /* YellowLEDOff.png in Resources */,
+				FAC81CC716E2DD63006E8542 /* YellowLEDOn.png in Resources */,
+				FAC81D3816E33CCB006E8542 /* ClockFace.png in Resources */,
+				FAC81D3916E33CCB006E8542 /* HourHand.png in Resources */,
+				FAC81D3A16E33CCB006E8542 /* MinuteHand.png in Resources */,
+				FAC81D3D16E35138006E8542 /* SecondHand.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC81C7D16E2B2A0006E8542 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC81C9216E2B2A0006E8542 /* main.m in Sources */,
+				FAC81C9616E2B2A1006E8542 /* ClockAppDelegate.m in Sources */,
+				FAC81C9C16E2B2A1006E8542 /* ClockViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAC81C8E16E2B2A0006E8542 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC81C8F16E2B2A0006E8542 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FAC81C9716E2B2A1006E8542 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC81C9816E2B2A1006E8542 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC81C9D16E2B2A1006E8542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAC81C9E16E2B2A1006E8542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC81CA016E2B2A1006E8542 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FAC81CA116E2B2A1006E8542 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Clock/Clock-Prefix.pch";
+				INFOPLIST_FILE = "Clock/Clock-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC81C7B16E2B2A0006E8542 /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC81C9D16E2B2A1006E8542 /* Debug */,
+				FAC81C9E16E2B2A1006E8542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC81C9F16E2B2A1006E8542 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC81CA016E2B2A1006E8542 /* Debug */,
+				FAC81CA116E2B2A1006E8542 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC81C7816E2B2A0006E8542 /* Project object */;
+}
